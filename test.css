@@ -1,0 +1,365 @@
+* {
+
+	box-sizing: border-box;}
+
+h1{
+
+	text-align: center;
+
+}
+
+p{
+
+	background-color: #616161;
+
+	border:2px solid black;
+
+	height: 250px;
+
+	margin-right: 10px;
+
+	padding: 40px 10px 5px 10px;
+
+	overflow: hidden;
+
+}
+
+#container {
+
+	position: relative;
+
+}
+
+#p1 {
+
+  background-color:#CE6087;
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  font-weight: bold;
+
+  height: 35px;
+
+  width: 120px;
+
+  padding: 10px;
+
+  text-align: center;
+
+}
+
+#p2 {
+
+  background-color:#CB3434 ;
+
+  color: white;
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  font-weight: bold;
+
+  height: 35px;
+
+  width: 120px;
+
+  padding: 10px;
+
+  text-align: center;
+
+  
+
+}
+
+#p3 {
+
+ background-color: #FFD480;
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  font-weight: bold;
+
+  height: 35px;
+
+  width: 120px;
+
+  padding: 10px;
+
+  text-align: center;
+
+  
+
+}
+
+.row {
+
+  width: 100%;
+
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+
+    float: left;
+
+  }
+
+  .col-lg-1 {
+
+    width: 8.33%;
+
+  }
+
+  .col-lg-2 {
+
+    width: 16.66%;
+
+  }
+
+  .col-lg-3 {
+
+    width: 25%;
+
+  }
+
+  .col-lg-4 {
+
+    width: 33.33%;
+
+  
+
+  }
+
+  .col-lg-5 {
+
+    width: 41.66%;
+
+  }
+
+  .col-lg-6 {
+
+    width: 50%;
+
+  }
+
+  .col-lg-7 {
+
+    العرض: 58.33٪ ؛
+
+  }
+
+  .col-lg-8 {
+
+    العرض: 66.66٪؛
+
+  }
+
+  .col-lg-9 {
+
+    العرض: 74.99٪ ؛
+
+  }
+
+  .col-lg-10 {
+
+    العرض: 83.33٪ ؛
+
+  }
+
+  .col-lg-11 {
+
+    العرض: 91.66٪؛
+
+  }
+
+  .col-lg-12 {
+
+    العرض: 100٪؛
+
+  }
+
+  
+
+}
+
+media (أدنى عرض: 768 بكسل) و (أقصى عرض: 991 بكسل) {
+
+  .col-md-1 و .col-md-2 و .col-md-3 و .col-md-4 و .col-md-5 و .col-md-6 و .col-md-7 و. col-md-8 و .col-md-9 و .col-md-10 و .col-md-11 و .col-md-12 {
+
+    تعويم: اليسار؛
+
+   
+
+  }
+
+  .col-md-1 {
+
+    العرض: 8.33٪ ؛
+
+  }
+
+  .col-md-2 {
+
+    العرض: 16.66٪ ؛
+
+  }
+
+  .col-md-3 {
+
+    العرض: 25٪؛
+
+  }
+
+  .col-md-4 {
+
+    العرض: 33.33٪؛
+
+  }
+
+  .col-md-5 {
+
+    العرض: 41.66٪ ؛
+
+  }
+
+  .col-md-6 {
+
+    العرض: 50٪؛
+
+  }
+
+  .col-md-7 {
+
+    العرض: 58.33٪ ؛
+
+  }
+
+  .col-md-8 {
+
+    العرض: 66.66٪؛
+
+  }
+
+  .col-md-9 {
+
+    العرض: 74.99٪ ؛
+
+  }
+
+  .col-md-10 {
+
+    العرض: 83.33٪ ؛
+
+  }
+
+  .col-md-11 {
+
+    العرض: 91.66٪؛
+
+  }
+
+  .col-md-12 {
+
+    العرض: 100٪؛
+
+  }
+
+}
+
+/ ********** الجوال فقط ********** /
+
+media (أقصى عرض: 767 بكسل) {
+
+  .col-sm-1 ، .col-sm-2 ، .col-sm-3 ، .col-sm-4 ، .col-sm-5 ، .col-sm-6 ، .col-sm-7 ،. col-sm-8، .col-sm-9، .col-sm-10، .col-sm-11، .col-sm-12 {
+
+    تعويم: اليسار؛
+
+  }
+
+  .col-sm-1 {
+
+    العرض: 8.33٪ ؛
+
+  }
+
+  .col-sm-2 {
+
+    العرض: 16.66٪ ؛
+
+  }
+
+  .col-sm-3 {
+
+    العرض: 25٪؛
+
+  }
+
+  .col-sm-4 {
+
+    العرض: 33.33٪؛
+
+  
+
+  }
+
+  .col-sm-5 {
+
+    العرض: 41.66٪ ؛
+
+  }
+
+  .col-sm-6 {
+
+    العرض: 50٪؛
+
+  }
+
+  .col-sm-7 {
+
+    العرض: 58.33٪ ؛
+
+  }
+
+  .col-sm-8 {
+
+    العرض: 66.66٪؛
+
+  }
+
+  .col-sm-9 {
+
+    العرض: 74.99٪ ؛
+
+  }
+
+  .col-sm-10 {
+
+    العرض: 83.33٪ ؛
+
+  }
+
+  .col-sm-11 {
+
+    العرض: 91.66٪؛
+
+  }
+
+  .col-sm-12 {
+
+    العرض: 100٪؛
+
+  }
+
+}
